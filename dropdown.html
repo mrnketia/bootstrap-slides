@@ -1,0 +1,27 @@
+<!-- 
+ 		DROP DOWN
+
+dropdown -> define a dropdown
+dropdown-toggle -> define a link or button as a dropdown menu 
+data-bs-toggle = "dropdown"  -> display dropdown menu
+
+DROPDOWN ORDER 
+div 			-> dropdown(dropup :: requires space or content above the dropdown menu) 
+// dropdown dropend(right) 			  <- move to the right of the dropdown (leaves the dropdown width)
+// dropdown dropstart(left)			  <- move to the left of the dropdown (leaves the dropdown width) 
+// dropdown dropdown-menu-end(right)  <- doesn't leave the dropdown width 
+// dropdown dropdown-menu-start(left) <- doesn't leave the dropdown width
+
+button / a 		-> btn dropdown-toggle (data-bs-toggle="dropdown")
+ul 				-> dropdown-menu
+a:in:li 				-> dropdown-item        <- link text are underlined 
+						-> dropdown-item-text   <- remove underline from link text
+						   // active, disabled
+
+
+DROPDOWN COMPONENT 
+hr:in:hli -> dropdown-driver  <-- To create a horizontal ruler separating dropdown items 
+
+h-tag:-in-:li -> dropdown-header <-- give a dropdown menu a header 
+
+ -->

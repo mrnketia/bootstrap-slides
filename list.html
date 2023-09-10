@@ -1,0 +1,45 @@
+<!-- 
+
+ul :: tag 
+list-group
+
+
+li :: tag 
+list-group-item
+
+
+li-tag :: properties 
+a) active 
+b) disabled 
+
+
+ATTRIBUTES INTO LIST 
+
+1) converting a link(a:tag) and button as lists 
+list-group-item list-group-item-action ::property
+
+NB:: instead of li tag use a-tag or button-tag
+
+2) Adding colors 
+li :: list-group-item list-group-item-::color
+
+a :: list-group-item list-group-item-action list-group-item-::color
+
+
+PROPERTIES OF LIST 
+ul :: list-group-flush -- remove borders around list 
+   :: list-group-numbered -- add numbers to the list 
+   :: list-group-horizontal -- make list horizontal
+
+NB: 'list group' is used to define a list in the ul tag and 'list-group-:property' specifies the type of property meaning they're all defined inside the 'ul' tag
+
+
+ ADDING BADGES TO A LIST 
+ A badge is like adding a number or icon at the end of the list name 
+ | Tesla 			&
+
+ 1--:: place the badge inside a span tag 
+ 2--:: use the flex property to display the items inside the li-tag (not ul-tag)
+ 3--:: inisde the span-tag define a class called badge (you cab add other properties like background color) 
+ 
+ -->
